@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  background: #fbfcf2;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.app__nav {
+  background: #64b5f6;
+  color: #fbfcf2;
+  padding: 1rem;
+}
+.container {
+  margin: 0 auto;
+  max-width: 65rem;
+}
+
+.top-nav {
+  overflow: auto;
+}
+.top-nav__left {
+  float: left;
+  margin: 0 1rem;
+}
+.nav-list {
+  display: inline;
+  float: right;
+  margin: 0 -0.5rem;
+
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.top-nav__right {
+  float: right;
+  margin: 0 1rem;
+}
+
+.nav-list__item {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+.nav-list__link {
+  color: inherit;
+  text-decoration: none;
+}
+.section {
+  margin: 0 auto;
+}
+.grid {
+  overflow: auto;
+}
+.grid-item {
+  border: thin solid #9f9f9f;
+  border-radius: 0.5rem;
+  width: calc(100% / 3 - 1rem - 1rem);
+  min-width: 8rem;
+  margin: 1rem;
+  background: #fbfcf2;
+  float: left;
+}
+.grid-item__top {
+  padding: 0.5rem;
+  overflow: auto;
+}
+.grid-item__repo {
+  border-top: thin solid #9f9f9f;
+  padding: 0.5rem;
+  overflow: auto;
+}
+.avatar {
+  float: left;
+  border-radius: 5px;
+}
+.name {
+  padding: 0;
+  margin: 0 0 0 0.5rem;
+  float: left;
+  overflow: auto;
+}
+.username {
+  padding: 0;
+  margin: 0.2rem 0 0 0.5rem;
+  float: left;
+
+  font-weight: 400;
+  color: #9f9f9f;
+}
+
+.repo-name {
+  float: left;
+}
+
+.repo-language {
+  float: right;
+}
+
+.html-dot {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background: #e34f26;
+  border-radius: 50%;
+}
+.javascript-dot {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background: #e5bb31;
+  border-radius: 50%;
+}
+.ruby-dot {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background: #CC342D;
+  border-radius: 50%;
+}
+.typescript-dot {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background: #294E80;
+  border-radius: 50%;
+}
+.python-dot {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background: #3776AB;
+  border-radius: 50%;
+}
