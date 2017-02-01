@@ -101,3 +101,10 @@ ul {
   background: #e34f26;
   border-radius: 50%;
 }
+.javascript-dot {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  background: #e5bb31;
+  border-radius: 50%;
+}
