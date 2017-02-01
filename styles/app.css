@@ -11,3 +11,13 @@ ul {
 * {
   box-sizing: border-box;
 }
+
+.app {
+
+}
+
+.app__nav {
+  background: #158dee;
+  color: #fafaf4;
+  padding: 1rem;
+}
